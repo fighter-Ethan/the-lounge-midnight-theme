@@ -1,0 +1,28 @@
+div.chat, .window {
+  background-color: black;
+}
+
+form#form, #chat .userlist .count {
+  background-color: #363636;
+}
+
+#chat .self .content {
+  color: #76c5db;
+}
+
+div.unread-marker {
+  color: #36b33a;
+}
+
+#chat .msg[data-type=action] .content, #chat .msg[data-type=action] .from, #chat .msg[data-type=action] .user {
+  color: #d1a94b;
+}
+
+#chat .userlist .search {
+  color: #eee;
+}
+
+#chat .userlist .names, #chat .user-mode:before, div.header, div.scrollable-area, footer#footer {
+  color: white;
+  background-color: #474747;
+}
